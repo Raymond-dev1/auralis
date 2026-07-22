@@ -22,31 +22,3 @@ export default function Hero() {
     </div>
   );
 }
-
-<section className="bg-[#F3F2EF] font-geist py-16">
-      <div className="max-w-4xl mx-6 md:mx-auto flex flex-col gap-8">
-        {/* Heading: first two words on line 1, "experiences" on line 2, "sound human" on line 3 */}
-        <h1 className="text-5xl font-semibold leading-tight tracking-[-3.36px] text-[#111827]">
-          <span className="block">Making digital</span>
-          <span className="block">experiences</span>
-          <span className="block">sound human</span>
-        </h1>
-
-        {/* Sub / CTA row */}
-        <div className="flex items-center gap-4 pt-6">
-          <a
-            href="/signup"
-            className="inline-flex items-center justify-center bg-black text-white text-sm font-medium px-6 h-9 rounded-full"
-          >
-            Sign up
-          </a>
-
-          <a
-            href="/contact"
-            className="inline-flex items-center justify-center bg-white text-black text-sm font-bold px-4 h-9 rounded-full border border-[#747878]"
-          >
-            Contact sales
-          </a>
-        </div>
-      </div>
-    </section>
