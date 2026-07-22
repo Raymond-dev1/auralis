@@ -1,5 +1,6 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
+import Hero from './components/Hero'
 
 const navlinks = [
   { label: "Auralis Studio", href: "/" },
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="min-h-screen bg-[F3F2EF]">
   <NavBar links={navlinks} />
+  <Hero />
   </div>
   )
 }
