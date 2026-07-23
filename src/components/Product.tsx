@@ -29,7 +29,7 @@ return(
         </CardAction>
         </CardHeader>   
         <CardContent className="">
-            <div className="bg-blue-800">
+            <div className="">
                 <p>Content</p>
         </div>
         </CardContent>

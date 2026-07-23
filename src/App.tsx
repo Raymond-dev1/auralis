@@ -2,6 +2,8 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import Hero from './components/Hero'
 import Product from "./components/Product";
+import Client from "./components/client"
+import Logo from "./components/logo"
 
 const navlinks = [
   { label: "Auralis Studio", href: "/" },
@@ -14,10 +16,12 @@ const navlinks = [
 
 function App() {
   return (
-    <div className="min-h-screen bg-[F3F2EF]">
+    <div className="scroll-smooth min-h-screen bg-[F3F2EF]">
   <NavBar links={navlinks} />
   <Hero />
   <Product />
+  <Client />
+  <Logo />
   </div>
   )
 }
