@@ -5,7 +5,7 @@
 
 export default function Hero() {
   return (
-    <div className="font-geist pt-9 h-106.5">
+    <div className="font-sans pt-9 h-106.5">
       <div className="flex flex-col max-w-4xl gap-32 m-5 md:mx-auto-flex  pt-[63.19px] w-174">
         <div className="">
           <h1 className="text-6xl font-semibold h-2 tracking-[-3.36px]">

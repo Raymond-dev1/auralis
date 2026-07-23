@@ -2,7 +2,7 @@ import {
   Card,
   CardAction,
   CardContent,
-  CardDescription,
+//   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -11,7 +11,7 @@ import {
 export default function Product(){
 return(
     <section className="m-5">
-        <Card className="font-geist max-w-6xl h-129.5  bg-[#F7F3F2]">
+        <Card className="font-sans max-w-6xl h-129.5  bg-[#F7F3F2]">
         <CardHeader>
         <CardTitle className="bg-[#F7F3F2] rounded-2xl w-91.25  border-2 p-2 pl-2">
             <div className="px-3 text-sm text-[#71717A] flex flex-row gap-6 rounded-2xl">
@@ -20,7 +20,7 @@ return(
                 <div>Auralis API</div>
             </div>
             </CardTitle>
-        <CardAction className="bg-[#F7F3F2] rounded-2xl border-2 p-2 ">
+        <CardAction className="bg-[#F7F3F2] rounded-2xl border-2 p-2">
           <span className="font-semibold tracking-normal p-2">
             <span className="bg-[#10B981] rounded-4xl">.
                  </span>
@@ -33,16 +33,16 @@ return(
                 <p>Content</p>
         </div>
         </CardContent>
-        <CardFooter className="pt-72 font-geist ">
-            <div className="bg-[#F7F3F2]  rounded-3xl w-295 border-2 p-2 px-0">
-            <div className="px-6 p-2 justify-between text-sm tracking-normal text-[#71717A] flex flex-row gap-6">
-                <div className="text-black justify-between tracking-normal">AI Voice generator</div>
+        <CardFooter className="pt-72">
+            <div className="bg-[#ffffff]  rounded-3xl w-295 border-2 p-2 px-0">
+            <div className="px-6 p-2  text-sm tracking-normal text-[#6B6B6B]  flex flex-row gap-6">
+                <div className="text-black font-semibold tracking-normal">AI Voice Generator</div>
                 <div>Text to Speech</div>
                 <div>Music</div>
                 <div>Sound Effects</div>
                 <div>Voice Cloning</div>
-                <div className="pl-99">
-            <a href="/signup" className="inline-flex font-geist items-center bg-black text-sm text-white  px-4 h-7 rounded-full transition delay-150 duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 ">Sign up</a>
+                <div className="ml-auto">
+            <a href="/signup" className="inline-flex items-center bg-black text-sm text-white  px-4 h-7 rounded-full transition delay-150 duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 ">Sign up</a>
             </div>
             </div>
             </div>
