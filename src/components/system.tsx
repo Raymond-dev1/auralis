@@ -11,7 +11,7 @@ import {
 
 export default function System() {
   return (
-    <section className=" bg-amber-300 p-8 pb-4 font-sans ">
+    <section className="p-8 pb-4 font-sans ">
       <div className="flex flex-col items-center pb-12">
         <div>
           <h2 className="font-bold text-5xl tracking-[-1.92px] leading-tight  text-center">
