@@ -29,7 +29,7 @@ export default function AuralisStudio(){
         <span className="block">audio in one place</span>
       </div>
       <div className="flex gap-8">
-        <Card className="h-75 w-149 bg-orange-500">
+        <Card className="h-75 w-149 bg-linear-to-r from-orange-500 via-red-600 to-white-100  to-violet-300">
           <CardContent className="h-full"></CardContent>
           <div className="justify-end text-orange-500">.
           <CardFooter className="py-2 border-t  relative top-2 text-[#FFFFFF] gap-2 flex-col items-start bg-white/30 backdrop-blur-none h-full ">
