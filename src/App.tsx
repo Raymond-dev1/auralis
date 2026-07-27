@@ -4,7 +4,8 @@ import Hero from './components/Hero'
 import Product from "./components/Product";
 import Client from "./components/client"
 import Logo from "./components/logo"
-import System from "./components/system"
+import System from "./components/System"
+import AuralisStudio from "./components/AuralisStudio"
 
 const navlinks = [
   { label: "Auralis Studio", href: "/" },
@@ -24,6 +25,7 @@ function App() {
   <Client />
   <Logo />
   <System />
+  <AuralisStudio />
   </div>
   )
 }
