@@ -7,6 +7,7 @@ import Logo from "./components/logo"
 import System from "./components/System"
 import AuralisStudio from "./components/AuralisStudio"
 import AuralisAgent from "./components/AuralisAgents"
+import Footer from "./components/Footer"
 
 const navlinks = [
   { label: "Auralis Studio", href: "/" },
@@ -28,6 +29,7 @@ function App() {
   <System />
   <AuralisStudio />
   <AuralisAgent />
+  <Footer />
   </div>
   )
 }
