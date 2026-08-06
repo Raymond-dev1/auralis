@@ -17,7 +17,7 @@ export default function NavBar({ links, logoText = "Auralis" }: NavBarProps) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="navbar font-sans sticky top-0 z-50 flex items-center justify-between px-6 py-4 h-21 border-b bg-background">
+    <nav className="navbar font-sans sticky top-0  z-100 flex items-center justify-between px-6 py-4 h-21 border-b bg-background/5 backdrop-blur-sm">
       <div className="flex gap-20">
         <div className="flex items-center  gap-4">
           <span className="font-extrabold text-lg tracking-[-0.9px] text-[#18181B]">
