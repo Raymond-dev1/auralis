@@ -24,8 +24,8 @@ export default function System() {
           intending to change lives
         </span>
       </div>
-      <div className="flex gap-8 ">
-        <Card className="bg-[#d1c0e1]  h-74 w-148">
+      <div className="flex flex-col gap-8 md:gap-8 md:flex-row ">
+        <Card className="bg-[#d1c0e1] w-full md:h-74 md:w-148">
           <CardHeader>
             <img src={docIcon} alt="doc-icon" />
           </CardHeader>
@@ -41,7 +41,7 @@ export default function System() {
             </span>
           </CardFooter>
         </Card>
-        <Card className="bg-green-100 w-148">
+        <Card className="bg-green-100 w-full  md:w-148">
           <CardHeader>
             <img src={ccIcon} alt="cc-icon" />
           </CardHeader>
