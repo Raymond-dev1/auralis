@@ -20,17 +20,17 @@ return(
                 <div>Auralis API</div>
             </div>
             </CardTitle>
-        <CardAction className="bg-[#F7F3F2] rounded-2xl border-2 p-1 md:p-2">
-          <span className="font-semibold tracking-normal p-2 text-[10px] md:text-sm">
+        <CardAction className="bg-[#F7F3F2] rounded-2xl border-2  sm:justify-center md:p-2">
+          <div className="font-semibold tracking-normal p-2 text-[10px] md:text-sm">
             <span className="bg-[#10B981] rounded-4xl">
                  </span>
                   AI Voice Generator
-                  </span>
+                  </div>
         </CardAction>
         </CardHeader>   
         <CardContent className="">
             <div className="">
-                <p>Content</p>
+                <p></p>
         </div>
         </CardContent>
         <CardFooter className="pt-72">

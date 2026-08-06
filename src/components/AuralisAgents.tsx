@@ -33,11 +33,11 @@ export default function AuralisAgent() {
               </div>
             </CardTitle>
           </CardHeader>
-          <CardContent className="h-full">
-            <div className="flex justify-center -space-x-14 backdrop-blur-2xl ">
-  <div className="bg-blue-500 mix-blend-multiply h-45.5 rounded-4xl">dbfdefbhregfjer</div>
-  <div className="bg-pink-500 mix-blend-multiply h-45.5 rounded-4xl">dhfhdrfearufbdeur</div>
-</div>
+          <CardContent className="">
+            <div className="flex justify-center -space-x-14">
+  <div className="bg-blue-500 mix-blend-multiply h-45.5 w-40 rounded-4xl blur-md text-[#3B82F6]"></div>
+  <div className="bg-pink-500 mix-blend-multiply h-45.5 w-40 rounded-4xl blur-md text-[#EC4899]"></div>
+  </div>
           </CardContent>
           <div className="">
             <CardFooter className=" border-t mt-2 text-black gap-2 flex-col items-start bg-white backdrop-blur-none h-full shadow-xl/20 pb-5">
