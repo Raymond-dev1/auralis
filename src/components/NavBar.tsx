@@ -18,7 +18,7 @@ export default function NavBar({ links, logoText = "Auralis" }: NavBarProps) {
 
   return (
     <nav className="navbar font-sans sticky top-0  z-100 flex items-center justify-between px-6 py-4 h-21 border-b bg-background/5 backdrop-blur-sm">
-      <div className="flex gap-20">
+      <div className="flex md:gap-10 lg:gap-20">
         <div className="flex items-center  gap-4">
           <span className="font-extrabold text-lg tracking-[-0.9px] text-[#18181B]">
             {logoText}
@@ -30,7 +30,7 @@ export default function NavBar({ links, logoText = "Auralis" }: NavBarProps) {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-medium font-medium opacity-100"
+                className="text-medium font-small opacity-100"
               >
                 {link.label}
               </a>
@@ -54,7 +54,7 @@ export default function NavBar({ links, logoText = "Auralis" }: NavBarProps) {
 
 {/* Mobile menu — conditionally rendered  */}
       {isOpen && (
-           <div className="md:hidden flex flex-col gap-4 pt-6 pb-2">
+           <div className="md:hidden flex flex-col gap-6 pt-6 pb-2">
           {links.map((link: NavLink) => (
             <a
               key={link.href}
