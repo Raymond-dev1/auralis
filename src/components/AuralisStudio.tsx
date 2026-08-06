@@ -28,12 +28,12 @@ export default function AuralisStudio(){
         <span className="block"> Create, refine, & scale</span>
         <span className="block">audio in one place</span>
       </div>
-      <div className="flex gap-8">
-        <Card className="h-75 w-149 bg-linear-to-r from-orange-500 via-red-600 to-white-100  to-violet-300">
+      <div className="flex flex-col gap-6  md:flex-row md:gap-8">
+        <Card className=" w-full md:h-75 md:w-149 bg-linear-to-r from-orange-500 via-red-600 to-white-100  to-violet-300">
           <CardContent className="h-full"></CardContent>
           <div className="justify-end text-orange-500">.
-          <CardFooter className="py-2 border-t  relative top-2 text-[#FFFFFF] gap-2 flex-col items-start bg-white/30 backdrop-blur-none h-full ">
-            <span className="text-lg  tracking-normal font-light">
+          <CardFooter className="md:py-2 border-t  relative top-2 text-[#FFFFFF] gap-2 flex-col items-start bg-white/30 backdrop-blur-none h-full ">
+            <span className="text-sm md:text-lg  tracking-normal font-light">
               {" "}
               Soft Editor UI{" "}
             </span>
@@ -44,7 +44,7 @@ export default function AuralisStudio(){
           </CardFooter>
           </div>
         </Card>
-        <Card className="h-75 w-149 bg-white">
+        <Card className="w-full md:h-75 md:w-149 bg-white">
           <CardContent className="h-full"></CardContent>
           <CardFooter className="gap-2 flex-col items-start">
             <span className="text-lg tracking-normal font-medium">
@@ -59,9 +59,9 @@ export default function AuralisStudio(){
         </Card>
       </div>
       {/* icons*/}
-      <div className=" flex flex-row  gap-6">
+      <div className="grid grid-cols-2 gap-3 md:flex flex-row md:gap-6">
         {icons.map((icon ,i)=>(
-          <Card className=" flex bg-[#F3F2EF]  gap-3 p-5 w-71.5 h-22.5">
+          <Card className=" flex bg-[#F3F2EF] gap-3 w-full p-5 md:w-71.5 md:h-22.5">
             <CardHeader >
               <span key ={i} className="">
             <img src={icon.src} />
