@@ -49,17 +49,17 @@ export default function NavBar({ links, logoText = "Auralis" }: NavBarProps) {
       onClick={()=>setIsOpen(!isOpen)}
       aria-label="Toggle menu"
       >
-        {isOpen ?  <HugeiconsIcon icon={X} size={24} /> : <HugeiconsIcon icon={Menu} size={24} />}
+        {isOpen ?  <HugeiconsIcon icon={X} size={24} className="bg-black text-white relative left-40 bottom-5 rounded-full" /> : <HugeiconsIcon icon={Menu} size={24} />}
       </button>
 
 {/* Mobile menu — conditionally rendered  */}
       {isOpen && (
-           <div className="md:hidden flex flex-col gap-6 pt-6 pb-2">
+           <div className="md:hidden flex flex-col gap-4 mt-65 p-5  w-full border bg-white rounded-3xl">
           {links.map((link: NavLink) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-medium font-medium text-[#71717A]"
+              className="text-medium font-medium p-1 rounded-l text-[#71717A]"
               onClick={() => setIsOpen(false)}
             >
               {link.label}
