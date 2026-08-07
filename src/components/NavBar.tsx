@@ -49,7 +49,7 @@ export default function NavBar({ links, logoText = "Auralis" }: NavBarProps) {
       onClick={()=>setIsOpen(!isOpen)}
       aria-label="Toggle menu"
       >
-        {isOpen ?  <HugeiconsIcon icon={X} size={24} className="bg-black text-white relative left-45 bottom-5 rounded-full" /> : <HugeiconsIcon icon={Menu} size={24} />}
+        {isOpen ?  <HugeiconsIcon icon={X} size={24} className="bg-black text-white relative left-45 sm:left-130 bottom-5 rounded-full" /> : <HugeiconsIcon icon={Menu} size={24} />}
       </button>
 
 {/* Mobile menu — conditionally rendered  */}

@@ -20,15 +20,15 @@ const icons =[
 
 export default function AuralisStudio(){
   return(
-    <section className="flex flex-col gap-6 pt-35 p-8 h-194.5 font-sans">
+    <section className="flex flex-col gap-6 pt-35 p-8 h-194.5 font-sans md:justify-center">
       <div>
         <span className=" font-semibold text-xs tracking-[1.2px] rounded-4xl p-1 bg-[#E5E2E1]"> Auralis Studio</span>
       </div>
-      <div className="leading-12 font-normal text-4xl">
+      <div className="leading-12 font-normal text-4xl md:text-left">
         <span className="block"> Create, refine, & scale</span>
         <span className="block">audio in one place</span>
       </div>
-      <div className="flex flex-col gap-6  md:flex-row md:gap-8">
+      <div className="flex flex-col gap-6  md:flex-row md:gap-8 ">
         <Card className=" w-full md:h-75 md:w-149 bg-linear-to-r from-orange-500 via-red-600 to-white-100  to-violet-300">
           <CardContent className="h-full"></CardContent>
           <div className="justify-end text-orange-500">.

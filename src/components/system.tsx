@@ -24,7 +24,7 @@ export default function System() {
           intending to change lives
         </span>
       </div>
-      <div className="flex flex-col gap-8 md:gap-8 md:flex-row ">
+      <div className="flex flex-col gap-8 md:gap-8 md:flex-row md:justify-center">
         <Card className="bg-[#d1c0e1] w-full md:h-74 md:w-148">
           <CardHeader>
             <img src={docIcon} alt="doc-icon" />
