@@ -10,7 +10,7 @@ import {
 
 export default function Product(){
 return(
-    <section className="m-5">
+    <section className="md:justify-center md:flex m-5">
         <Card className="font-sans justify-center max-w-6xl h-129.5  bg-[#F7F3F2]">
         <CardHeader className="justify-center">
         <CardTitle className="bg-[#F7F3F2] rounded-2xl sm:w-91.25  md:w-91.25 border-2 p-2 pl-2">
